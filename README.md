@@ -12,3 +12,18 @@
 - Crear links para invitar gente a un grup
 
 ![Database Diagram](https://i.imgur.com/IHhtWv2.png)
+
+Ejemplo de respuestas:
+
+```Javascript
+{
+  error: false,
+  status: 201,
+  message: 'User created ssuccesfully',
+  data: {
+    id: 5,
+    firstName: 'Christian',
+    ...
+  }
+}
+```
